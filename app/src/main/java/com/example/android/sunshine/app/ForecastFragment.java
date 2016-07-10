@@ -103,6 +103,7 @@ public class ForecastFragment extends Fragment {
 
         //In adapter we compose our data with xml files together
         mForecastAdapter = new ArrayAdapter<String>(
+
                 //Current context - this fragmet
                 getActivity(),
                 //ID of list item layout
