@@ -4,5 +4,42 @@
     <string name="app_name">Sunshine</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <!--transable false is because we dont want to change this value anytime because is unique key-->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">98701</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=30] -->
+    <string name="pref_units_label">Temperature Units</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_imperial_units_title" >Imperial</string>
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_metric_units_title" >Metric</string>
+
+    <!-- Value for imperial option in temperature unit preference [CHAR LIMIT=NONE] -->
+    <string name="pref_imperial_units_value" translatable="false">imperial</string>
+
+    <!-- Value for metric option in temperature unit preference [CHAR LIMIT=NONE] -->
+    <string name="pref_metric_units_value" translatable="false">metric</string>
+
+    <!-- Value for metric option in temperature unit preference [CHAR LIMIT=NONE] -->
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="action_map">Map location</string>
+    <string name="action_share">Share</string>
+
 
 </resources>

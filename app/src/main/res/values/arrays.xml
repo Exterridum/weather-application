@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--we dont want to use literals (specific strings) so we use only reference,
+     this will be easy later when we need edit-->
+    <!--Start Temperature preference values-->
+    <string-array name="pref_temperature_entries">
+        <item>@string/pref_imperial_units_title</item>
+        <item>@string/pref_metric_units_title</item>
+    </string-array>
+
+    <string-array name="pref_temperature_values">
+        <item>@string/pref_imperial_units_value</item>
+        <item>@string/pref_metric_units_value</item>
+    </string-array>
+    <!--End Temperature preference values-->
+
+</resources>
